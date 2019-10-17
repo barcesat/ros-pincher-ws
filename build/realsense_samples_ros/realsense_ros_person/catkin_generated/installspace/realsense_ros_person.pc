@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/catkin_ws/install
+
+Name: realsense_ros_person
+Description: Description of realsense_ros_person
+Version: 0.8.4
+Cflags: -I/home/turtlebot/catkin_ws/install/include
+Libs: -L/home/turtlebot/catkin_ws/install/lib -lrealsense_ros_person
+Requires: nodelet roscpp std_msgs image_transport sensor_msgs message_filters roslib rostime cv_bridge roscpp_serialization rospy

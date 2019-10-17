@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/catkin_ws/devel
+
+Name: ddynamic_reconfigure
+Description: Description of ddynamic_reconfigure
+Version: 0.2.1
+Cflags: -I/home/turtlebot/catkin_ws/src/ddynamic_reconfigure/include
+Libs: -L/home/turtlebot/catkin_ws/devel/lib -lddynamic_reconfigure
+Requires: roscpp dynamic_reconfigure

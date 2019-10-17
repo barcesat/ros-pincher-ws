@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtlebot_arm_object_manipulation_generate_messages_lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetActionGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceActionGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandAction.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandActionFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipActionGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceAction.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetActionResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetActionFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandActionResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetAction.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionActionGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipAction.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/MoveToTargetGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionActionResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceActionResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipActionFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandActionGoal.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceActionFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/InteractiveManipActionResult.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionAction.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/PickAndPlaceFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/ObjectDetectionActionFeedback.lisp"
+  "/home/turtlebot/catkin_ws/devel/share/common-lisp/ros/turtlebot_arm_object_manipulation/msg/UserCommandResult.lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/turtlebot_arm_object_manipulation_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

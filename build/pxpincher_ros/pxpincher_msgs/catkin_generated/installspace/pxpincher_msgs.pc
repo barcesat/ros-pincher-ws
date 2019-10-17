@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/catkin_ws/install
+
+Name: pxpincher_msgs
+Description: Description of pxpincher_msgs
+Version: 0.0.1
+Cflags: -I/home/turtlebot/catkin_ws/install/include
+Libs: -L/home/turtlebot/catkin_ws/install/lib 
+Requires: message_runtime roscpp std_msgs

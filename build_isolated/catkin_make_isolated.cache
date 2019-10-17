@@ -1,0 +1,2 @@
+rplidar_ros
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/turtlebot/catkin_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/turtlebot/catkin_ws/install_isolated

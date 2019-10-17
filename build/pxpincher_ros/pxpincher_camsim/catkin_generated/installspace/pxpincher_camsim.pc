@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/catkin_ws/install
+
+Name: pxpincher_camsim
+Description: Description of pxpincher_camsim
+Version: 0.0.0
+Cflags: -I/home/turtlebot/catkin_ws/install/include
+Libs: -L/home/turtlebot/catkin_ws/install/lib 
+Requires: roscpp image_transport tf visualization_msgs sensor_msgs std_msgs cv_bridge

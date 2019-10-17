@@ -1,0 +1,8 @@
+prefix=/home/turtlebot/catkin_ws/install
+
+Name: pxpincher_lib
+Description: Description of pxpincher_lib
+Version: 0.0.1
+Cflags: -I/home/turtlebot/catkin_ws/install/include
+Libs: -L/home/turtlebot/catkin_ws/install/lib -lpxpincher_lib
+Requires: pxpincher_msgs pxpincher_hardware actionlib control_msgs controller_manager_msgs tf tf_conversions eigen_conversions trajectory_msgs sensor_msgs interactive_markers cmake_modules
