@@ -1,10 +1,15 @@
 # ros-pincher-ws
 
-# install ubuntu 16.04
+## install ubuntu 16.04
 
-# install ros-kinetic
+Download and install Ubuntu 16.04 desktop
+http://releases.ubuntu.com/16.04/
 
-# install the following ros packages
+## install ros-kinetic
+
+http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+## install the following ros packages
 (generated using rospack list-names )
 
 > ackermann_steering_controller
@@ -315,16 +320,37 @@ yocs_velocity_smoother
 zeroconf_avahi
 zeroconf_msgs
 
-# catkin_make to compile all the code
+## create a catkin workspace and clone this repo in it
+
+http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+
+    $ source /opt/ros/kinetic/setup.bash
+    $ mkdir -p ~/catkin_ws/src
     $ cd ~/catkin_ws/
     $ catkin_make
-    $ source devel//setup.bash
+    $ git clone https://github.com/barcesat/ros-pincher-ws.git
 
-# install the ROS package for turtlebot arm
+
+## set the arm to be the pincher (and not turtlebot arm)
+
+    $export TURTLEBOT_ARM1=pincher 
+
+test:
+
+    $ env | grep ARM
+    TURTLEBOT_ARM1=pincher
+
+
+## catkin_make to compile all the code
+    $ cd ~/catkin_ws/
+    $ catkin_make
+    $ source devel/setup.bash
+
+## install the ROS package for turtlebot arm
     cd ~/catkin_ws
     rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
 
-# test the communication with the arbotix controller
+## test the communication with the arbotix controller
 use this specific fork! https://github.com/corb555/arbotix_ros
 
     $ ~/catkin_ws/src/arbotix_ros/arbotix_python/bin$ ./arbotix_terminal
@@ -336,10 +362,22 @@ if everything's alright (the servos have individual addresses) it would show:
 
     1    2    3    4    5 ....
 
-# upload the firmware of the pincher arm to the arbotix
+## upload the firmware of the pincher arm to the arbotix
 only if you get all kinds of errors or this is a new arm:
 
+Install Arduino 1.0.6 (Download & Extract):
 
-# run the moveit planner demo
+https://www.arduino.cc/download_handler.php?f=/arduino-1.0.6-linux64.tgz
+
+install java:
+
+    sudo apt-get install default-jdk
+
+continue with this guide:
+
+http://vanadiumlabs.github.io/arbotix/#arbotixsetup
+
+
+## run the moveit planner demo
 
     ~/catkin_ws$ roslaunch turtlebot_arm_moveit_config demo.launch
