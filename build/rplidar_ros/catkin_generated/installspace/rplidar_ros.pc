@@ -2,7 +2,7 @@ prefix=/home/turtlebot/catkin_ws/install
 
 Name: rplidar_ros
 Description: Description of rplidar_ros
-Version: 1.10.0
+Version: 1.9.0
 Cflags: 
 Libs: -L/home/turtlebot/catkin_ws/install/lib 
 Requires: 
